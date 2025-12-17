@@ -1,8 +1,9 @@
-    # .dockerignore
-    .git
-    .venv/
-    __pycache__/
-    *.pyc
-    *.ipynb
-    .pytest_cache/
-    .DS_Store
+.git
+.venv/
+__pycache__/
+*.pyc
+*.ipynb
+.pytest_cache/
+.DS_Store
+deployments/nginx/certs/
+deployments/nginx/.htpasswd
